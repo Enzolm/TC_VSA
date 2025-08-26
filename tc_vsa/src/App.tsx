@@ -4,6 +4,7 @@ import HomeImage from "./assets/20250825_160531.jpg";
 import ClubHouseImage from "./assets/20250825_160318.jpg";
 import TerrainExt from "./assets/20250825_160310.jpg";
 import { motion } from "motion/react";
+import { CircleCheckBig, CircleAlert, Facebook } from "lucide-react";
 
 function App() {
   return (
@@ -143,15 +144,7 @@ function App() {
                     data-size="20px"
                     data-weight="regular"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
+                    <CircleCheckBig size={20} />
                   </div>
                   Accès à tous les courts
                 </div>
@@ -162,15 +155,7 @@ function App() {
                     data-size="20px"
                     data-weight="regular"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
+                    <CircleCheckBig size={20} />
                   </div>
                   Participation aux événements du club
                 </div>
@@ -181,15 +166,7 @@ function App() {
                     data-size="20px"
                     data-weight="regular"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
+                    <CircleAlert size={20} />
                   </div>
                   Licence 33€ (non incluse)
                 </div>
@@ -224,15 +201,7 @@ function App() {
                     data-size="20px"
                     data-weight="regular"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
+                    <CircleCheckBig size={20} />
                   </div>
                   <span className="font-bold">
                     -10€/personnes{" "}
@@ -248,37 +217,10 @@ function App() {
                     data-size="20px"
                     data-weight="regular"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
+                    <CircleAlert size={20} />
                   </div>
                   Licence (non incluse voir prix Adulte/Enfant)
                 </div>
-                {/* <div className="text-[13px] font-normal leading-normal flex gap-3 text-white">
-                  <div
-                    className="text-white"
-                    data-icon="Check"
-                    data-size="20px"
-                    data-weight="regular"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
-                  </div>
-                  Participation in club events
-                </div> */}
               </div>
             </motion.div>
             <motion.div
@@ -310,15 +252,7 @@ function App() {
                     data-size="20px"
                     data-weight="regular"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
+                    <CircleCheckBig size={20} />
                   </div>
                   Accès aux programmes juniors
                 </div>
@@ -329,37 +263,10 @@ function App() {
                     data-size="20px"
                     data-weight="regular"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
+                    <CircleAlert size={20} />
                   </div>
-                  Licence (non incluse) de 7 à 18 ans 23€ et moins de 7 ans 13€
+                  Licence de 7 à 18 ans 23€ et moins de 7 ans 13€ (non incluse)
                 </div>
-                {/* <div className="text-[13px] font-normal leading-normal flex gap-3 text-white">
-                  <div
-                    className="text-white"
-                    data-icon="Check"
-                    data-size="20px"
-                    data-weight="regular"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
-                  </div>
-                  Participation in junior events
-                </div> */}
               </div>
             </motion.div>
           </div>
@@ -425,7 +332,7 @@ function App() {
           </p>
           <div className="@container">
             <div className="gap-2 px-4 flex flex-wrap justify-start">
-              <div className="flex flex-col items-center gap-2 bg-[#162013] py-2.5 text-center w-20">
+              <div className="flex flex-col items-center gap-2 dark:bg-[#162013] py-2.5 text-center w-20">
                 <div className="rounded-full bg-[#2e4328] p-2.5">
                   <div
                     className="text-white"
@@ -433,44 +340,13 @@ function App() {
                     data-size="20px"
                     data-weight="regular"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path>
-                    </svg>
+                    <Facebook size={17} />
                   </div>
                 </div>
                 <p className="text-black dark:text-white text-sm font-medium leading-normal">
                   Facebook
                 </p>
               </div>
-              {/* <div className="flex flex-col items-center gap-2 bg-[#162013] py-2.5 text-center w-20">
-                <div className="rounded-full bg-[#2e4328] p-2.5">
-                  <div
-                    className="text-white"
-                    data-icon="InstagramLogo"
-                    data-size="20px"
-                    data-weight="regular"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20px"
-                      height="20px"
-                      fill="currentColor"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
-                    </svg>
-                  </div>
-                </div>
-                <p className="text-black dark:text-white text-sm font-medium leading-normal">
-                  Follow us on Instagram
-                </p>
-              </div> */}
             </div>
           </div>
         </div>
