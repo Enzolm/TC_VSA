@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "@fontsource/lexend/400.css"; /* normal */
+@import "@fontsource/lexend/700.css"; /* bold */
+@import "@fontsource/lexend/800.css"; /* extra bold */
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  font-family: lexend, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @variant dark {
+    background: #162013;
+    a {
+      color: #000000;
+    }
+  }
+}
