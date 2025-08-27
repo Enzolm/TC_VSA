@@ -2,7 +2,7 @@ import DarkModeToggle from "./DarkModeToggle";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-4">
+    <nav className="flex justify-between items-center p-4 ml-2 mr-2">
       <div className="flex items-center">
         <img
           src="/logo_transparent2.png"

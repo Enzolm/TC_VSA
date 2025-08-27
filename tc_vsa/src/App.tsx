@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="px-40 flex flex-1 justify-center py-5">
+      <div className=" px-10 md:px-40 flex flex-1 justify-center py-5">
         <div className="layout-content-container flex flex-col max-w-[960px] flex-1">
           <div className="@container">
             <div className="@[480px]:p-4">
@@ -24,22 +24,17 @@ function App() {
                   <h1 className="text-white font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
                     Tennis Club
                   </h1>
-                  <br />
-                  <p className="text-white font-black leading-tight tracking-[-0.033em] @[480px]:text-2xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
-                    de
-                  </p>
-                  <br />
                   <h1 className="text-white font-extrabold leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-extrabold @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
                     Villeneuve sur Auvers
                   </h1>
                   <h2 className="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
-                    Your premier tennis destination in the heart of Villeneuve
-                    sur Auvers. Join us for a vibrant community, top-notch
-                    facilities, and exciting events.
+                    Découvrez le meilleur du tennis au cœur de
+                    Villeneuve-sur-Auvers. Partagez une expérience sportive
+                    inoubliable dans un club accueillant.
                   </h2>
                 </div>
                 <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#54d22d] text-[#162013] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]">
-                  <span className="truncate">Explore</span>
+                  <span className="truncate">Explorer</span>
                 </button>
               </div>
             </div>
@@ -285,7 +280,7 @@ function App() {
                     competitive matches and exciting prizes.
                   </p>
                 </div>
-                <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 flex-row-reverse bg-[#2e4328] text-black dark:text-white text-sm font-medium leading-normal w-fit">
+                <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 flex-row-reverse bg-[#2e4328] text-white text-sm font-medium leading-normal w-fit">
                   <span className="truncate">Register</span>
                 </button>
               </div>
@@ -310,7 +305,7 @@ function App() {
                     social gathering. Food, drinks, and good company!
                   </p>
                 </div>
-                <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 flex-row-reverse bg-[#2e4328] text-black dark:text-white text-sm font-medium leading-normal w-fit">
+                <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 flex-row-reverse bg-[#2e4328] text-white text-sm font-medium leading-normal w-fit">
                   <span className="truncate">Learn More</span>
                 </button>
               </div>
