@@ -111,7 +111,11 @@ function App() {
           </h2>
           <div className="grid grid-cols-[repeat(auto-fit,minmax(228px,1fr))] gap-2.5 px-4 py-3 @3xl:grid-cols-4">
             <motion.div
-              whileHover={{ scale: 1.1 }}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.1 }}
+              whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.95 }}
               className="flex flex-1 flex-col gap-4 rounded-lg border border-solid border-[#426039] bg-[#21301c] p-6"
             >
@@ -168,7 +172,7 @@ function App() {
               </div>
             </motion.div>
             <motion.div
-              whileHover={{ scale: 1.1 }}
+              whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.95 }}
               className="flex flex-1 flex-col gap-4 rounded-lg border border-solid border-[#426039] bg-[#21301c] p-6"
             >
@@ -219,7 +223,7 @@ function App() {
               </div>
             </motion.div>
             <motion.div
-              whileHover={{ scale: 1.1 }}
+              whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.95 }}
               className="flex flex-1 flex-col gap-4 rounded-lg border border-solid border-[#426039] bg-[#21301c] p-6"
             >
